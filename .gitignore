@@ -1,0 +1,17 @@
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# Python 相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.idea/
+
+# 日志和临时文件
+*.log
+translation_log.txt
+*.tmp
