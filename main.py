@@ -15,6 +15,7 @@ from translator import Translator
 from display import ConsoleDisplay, OverlayWindow, TranslationLogger
 
 
+
 class RealtimeTranslator:
     """实时翻译器主类"""
     

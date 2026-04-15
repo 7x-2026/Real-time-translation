@@ -1,5 +1,10 @@
+# audio_capture.py
+
+
+
 """音频捕获模块 - 使用 WASAPI loopback 捕获系统声音"""
 import numpy as np
+
 import soundcard as sc
 import threading
 import queue
