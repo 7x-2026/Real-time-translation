@@ -54,21 +54,21 @@ python main.py
 - `display/` - 显示模块（控制台/悬浮窗/日志）
 - `translation_log.txt` - 翻译记录（自动创建）
 
-.env文件如下
-# 硅基流动 API 配置
+
+# .env文件如下
+硅基流动 API 配置
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 OPENAI_BASE_URL=https://api.siliconflow.cn/v1
 
-# 模型配置
+模型配置
 WHISPER_MODEL=FunAudioLLM/SenseVoiceSmall
-# TRANSLATION_MODEL=deepseek-ai/DeepSeek-V2.5
 TRANSLATION_MODEL=tencent/Hunyuan-MT-7B
 
-# 音频配置
+音频配置
 SAMPLE_RATE=16000
 CHUNK_DURATION=3
 AUDIO_CHANNELS=1
 
-# 显示配置
+显示配置
 SHOW_OVERLAY=true
 OVERLAY_OPACITY=0.85
