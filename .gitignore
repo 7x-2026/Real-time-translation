@@ -15,3 +15,7 @@ __pycache__/
 *.log
 translation_log.txt
 *.tmp
+
+_pycache__/
+.idea/
+.vscode/
